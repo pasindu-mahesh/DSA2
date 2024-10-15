@@ -2,15 +2,13 @@ def func(num):
     if num == 1:
         return 1
     else:
-        return num + (func(num -1))
-
+        return func (num - 1)/2
+    
 while True:
-    num = int(input("Entre numbers :"))
+    num = int(input("Enter Number: "))
 
     if num == -1:
         print("Finished!")
         break
-
     else:
-        
-        print("output : ",func(num))
+        print("Output :",func(num))
