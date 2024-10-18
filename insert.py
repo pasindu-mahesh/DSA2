@@ -17,6 +17,11 @@ def findMedian(A):
     if (len(A)%2 == 0):
         meadian = (A[len(A)//2] + A[(A//2)] / 2)
         return meadian
+
+def findSum(A):
+    findSum = sum(A)
+    return sum(A)
+
     
 A = []
 for i in range(9):
@@ -29,3 +34,4 @@ print("After :",A)
 
 print("range is :",findRange(A))
 print("Meadian is :",findMedian(A))
+print("sum of :",findSum(A))
